@@ -1,0 +1,41 @@
+.col-centered {
+    margin: 0 auto;
+    float: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#flightForm {
+    padding: 1em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(splash.png);
+}
+
+#firebaseui-auth-container {
+    position: relative;
+    overflow: auto;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#warning {
+    position: relative;
+    text-align: center;
+    overflow: auto;
+    color: red;
+}
+
+#resubmit {
+    float: right;
+}
+
+td {
+    padding: 1em;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
